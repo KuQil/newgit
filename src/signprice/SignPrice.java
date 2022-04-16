@@ -31,7 +31,7 @@ public class SignPrice {
             price = min + 10;
         }
         if ("G".equals(color) || "g".equals(color)) {
-            price = price + 12;
+            price = price + 11;
         }
         if (charnum > 6) {
             price = price + ((charnum - 6) * 3);
