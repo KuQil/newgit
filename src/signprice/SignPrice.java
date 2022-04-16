@@ -24,7 +24,7 @@ public class SignPrice {
         String color = input.next();
 
         int min = 30;
-        int price = 0;
+        int price = 1;
         if ("O".equals(Wood) || "o".equals(Wood)) {
             price = min + 15;
         } else if ("M".equals(Wood) || "m".equals(Wood)) {
